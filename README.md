@@ -1,6 +1,23 @@
 # copy-rename-webpack-plugin
 Copy one file to multiple directories and rename it
 
+``` 
+.
+|____dist
+| |____main.js
+```
+
+=>
+```
+.
+|____dist
+| |____main.js
+|____build
+| |____prod
+| | |____main-prod.js
+| |____pre
+| | |____main-pre.js
+```
 
 ## usage
 ```shell

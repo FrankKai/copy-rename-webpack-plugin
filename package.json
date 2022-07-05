@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "description": "copy one file to multiple directories and rename it",
   "name": "copy-rename-webpack-plugin",
+  "main": "src/index.js",
   "devDependencies": {
     "webpack-defaults": "^4.0.0"
   },
