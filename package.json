@@ -3,6 +3,10 @@
   "description": "copy one file to multiple directories and rename it",
   "name": "copy-rename-webpack-plugin",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankKai/copy-rename-webpack-plugin.git"
+  },
   "scripts": {
     "alpha": "npm version prerelease --preid=alpha && npm publish --tag=alpha",
     "beta": "npm version prerelease --preid=beta && npm publish --tag=beta",
