@@ -28,7 +28,6 @@
           // 遍历所有静态文件，匹配到需要复制的文件
           let fileContent = null;
           for (const [key, value] of Object.entries(assets)) {
-            console.log(key, value)
             if (entry === key) {
               fileContent = value;
               break;
