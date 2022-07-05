@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1-alpha.1",
+  "version": "1.0.1-alpha.2",
   "description": "copy one file to multiple directories and rename it",
   "name": "copy-rename-webpack-plugin",
   "main": "src/index.js",
