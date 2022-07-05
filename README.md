@@ -1,5 +1,7 @@
 # copy-rename-webpack-plugin
-Copy one file to multiple directories and rename it
+Copy one file to multiple directories and rename it.
+
+Support for webpack4 and webpack5.
 
 ``` 
 .
