@@ -3,6 +3,15 @@
   "description": "copy one file to multiple directories and rename it",
   "name": "copy-rename-webpack-plugin",
   "main": "src/index.js",
+  "scripts": {
+    "alpha": "npm version prerelease --preid=alpha && npm publish --tag=alpha",
+    "beta": "npm version prerelease --preid=beta && npm publish --tag=beta",
+    "patch": "npm version patch",
+    "patch:publish": "yarn patch && npm publish",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "build": "rm -rf dist && tsc"
+  },
   "devDependencies": {
     "webpack-defaults": "^4.0.0"
   },
